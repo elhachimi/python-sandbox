@@ -1,0 +1,18 @@
+Name,Height(cm),Weight(kg),Surf Level
+Alice,177,71,3
+Eve,194,66,5
+Frank,168,93,8
+Grace,193,73,9
+Hannah,164,74,7
+Ivy,176,82,2
+Jack,198,62,4
+Karen,151,82,1
+Leo,163,52,10
+Mona,163,50,3
+Nina,180,98,1
+Oscar,174,63,9
+Paul,189,91,3
+Quincy,180,92,10
+Rachel,187,58,3
+Steve,185,64,3
+Tina,192,83,2
