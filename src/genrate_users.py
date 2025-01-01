@@ -35,7 +35,8 @@ names = [
 ]
 heights = [random.randint(150, 200) for _ in range(30)]  # Heights in cm
 weights = [random.randint(50, 100) for _ in range(30)]  # Weights in kg
-surf_levels = [random.randint(1, 10) for _ in range(30)]  # Surf levels from 1 to 10
+surf_levels = [random.randint(1, 10)
+               for _ in range(30)]  # Surf levels from 1 to 10
 
 # Generate the text file
 with open("users_compaire.txt", "w") as file:

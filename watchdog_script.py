@@ -14,7 +14,6 @@ class FilleChangeHandler(PatternMatchingEventHandler):
         self.command = command
 
     def on_modified(self, event):
-        print(f"{event.src_path} has been modified")
         subprocess.run(f"{self.command} {event.src_path}", shell=True)
         self.changed_file = event.src_path
 
